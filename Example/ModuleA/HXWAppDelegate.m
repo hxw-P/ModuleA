@@ -7,12 +7,17 @@
 //
 
 #import "HXWAppDelegate.h"
+#import <ModuleA/AViewCrl.h>
 
 @implementation HXWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIViewController *tabCrl = [[AViewCrl alloc]init];
+    self.window.rootViewController=tabCrl;
+    self.window.backgroundColor = [UIColor redColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

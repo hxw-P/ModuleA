@@ -16,10 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *str = @"abcdefg";
-    NSString *newStr = [str substringToIndex:100];
-    NSLog(@"+++++++++++++++%@",newStr);
-    self.view.backgroundColor = [UIColor whiteColor];
+//    NSString *str = @"abcdefg";
+//    NSString *newStr = [str substringToIndex:100];
+//    NSLog(@"+++++++++++++++%@",newStr);
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 /*
