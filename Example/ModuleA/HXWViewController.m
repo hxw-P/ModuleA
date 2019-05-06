@@ -7,7 +7,7 @@
 //
 
 #import "HXWViewController.h"
-
+#import <CTMediator.h>
 @interface HXWViewController ()
 
 @end

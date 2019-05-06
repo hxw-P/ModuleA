@@ -1,6 +1,6 @@
 {
   "name": "ModuleA",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "summary": "A short description of ModuleA.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/hxw-P/ModuleA",
@@ -13,10 +13,21 @@
   },
   "source": {
     "git": "https://github.com/hxw-P/ModuleA.git",
-    "tag": "0.1.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ModuleA/Classes/**/*"
+  "source_files": "ModuleA/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "CTMediator": [
+
+    ],
+    "HXWCategoryExt": [
+      "~> 0.2.0"
+    ]
+  }
 }

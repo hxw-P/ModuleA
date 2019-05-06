@@ -1,16 +1,52 @@
 PODS:
-  - ModuleA (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CTMediator (25)
+  - HXWCategoryExt (0.2.0)
+  - ModuleA (0.4.0):
+    - AFNetworking (~> 2.3)
+    - CTMediator
+    - HXWCategoryExt (~> 0.2.0)
 
 DEPENDENCIES:
   - ModuleA (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CTMediator
+  https://github.com/hxw-P/HXWSpecs.git:
+    - HXWCategoryExt
 
 EXTERNAL SOURCES:
   ModuleA:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ModuleA: 87a5db03621995f5fcecc3cce01ae3a123112e3f
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  HXWCategoryExt: cbcf81bb534483d2841d17f47a9cfc4d8377387d
+  ModuleA: d044dde09119fd2c883e3c0731663e9a55230680
 
-PODFILE CHECKSUM: 8ac3c34102b112794d546cb0426d7ed0de17fde6
+PODFILE CHECKSUM: 5addb94be8d3c718de53eb9211dce2b69644903d
 
 COCOAPODS: 1.6.1
