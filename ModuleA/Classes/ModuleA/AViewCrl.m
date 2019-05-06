@@ -7,6 +7,7 @@
 //
 
 #import "AViewCrl.h"
+#import <HXWCategoryExt/UIView+PopView.h>
 
 @interface AViewCrl ()
 
@@ -20,6 +21,7 @@
 //    NSString *newStr = [str substringToIndex:100];
 //    NSLog(@"+++++++++++++++%@",newStr);
     self.view.backgroundColor = [UIColor redColor];
+    [UIView popView:@"ddddd"];
 }
 
 /*

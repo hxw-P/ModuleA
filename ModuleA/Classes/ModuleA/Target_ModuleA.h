@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_ModuleA : NSObject
 
+//* 组件A模块对外暴露的接口 */
+//获取A模块主控制器实例
+-(UIViewController *)Action_AViewCrl:(NSDictionary *)params;
+
 @end
 
 NS_ASSUME_NONNULL_END
