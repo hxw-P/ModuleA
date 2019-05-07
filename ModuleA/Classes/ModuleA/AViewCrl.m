@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    [UIView popView:@"哈哈哈哈哈哈哈哈"];
+    [UIView popView:@"组件化测试"];
 }
 
 /*
