@@ -11,7 +11,7 @@
 #endif
 
 #import "AViewCrl.h"
-#import "ModuleA_Header.h"
+#import "CTMediator+ModuleA.h"
 #import "Target_ModuleA.h"
 
 FOUNDATION_EXPORT double ModuleAVersionNumber;
