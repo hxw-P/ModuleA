@@ -12,7 +12,7 @@ NSString * const kCTMediatorActionAViewCrl = @"AViewCrl";
 
 @implementation CTMediator (ModuleA)
 
--(UIViewController *)Action_TagetViewController:(NSDictionary *)dict
+-(UIViewController *)Action_AViewCrl:(NSDictionary *)dict
 {
     UIViewController  * viewCrl =  [self performTarget:kCTMediatorTargetModuleA action:kCTMediatorActionAViewCrl params:@{@"key":@"value"} shouldCacheTarget:NO];
     

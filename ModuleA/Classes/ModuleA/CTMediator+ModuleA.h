@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (ModuleA)
 
--(UIViewController *)Action_TagetViewController:(NSDictionary *)dict;
+-(UIViewController *)Action_AViewCrl:(NSDictionary *)dict;
 
 @end
 
