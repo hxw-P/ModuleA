@@ -21,13 +21,14 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - CTMediator (25)
-  - HXWCategoryExt (0.3.0):
-    - HXWCategoryExt/CategrayExt (= 0.3.0)
-  - HXWCategoryExt/CategrayExt (0.3.0)
-  - ModuleA (1.0.0):
+  - HXWCategoryExt (0.4.0):
+    - HXWCategoryExt/CategrayExt (= 0.4.0)
+    - HXWCategoryExt/CategrayExt (= 0.4.0)
+  - HXWCategoryExt/CategrayExt (0.4.0)
+  - ModuleA (1.1.0):
     - AFNetworking (~> 2.3)
     - CTMediator
-    - HXWCategoryExt (~> 0.3.0)
+    - HXWCategoryExt (~> 0.4.0)
 
 DEPENDENCIES:
   - ModuleA (from `../`)
@@ -46,8 +47,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  HXWCategoryExt: 1d140976e770d199f2b829b3ebedd66513f273ff
-  ModuleA: 6d817efd1b1688a2da4db227c66439be8ede0576
+  HXWCategoryExt: db8c0ad04174d5df070176ce14970f9d9ec17970
+  ModuleA: 13a56a83068ae9caa6bfdef7081381dd8812f9f7
 
 PODFILE CHECKSUM: 5addb94be8d3c718de53eb9211dce2b69644903d
 

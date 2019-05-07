@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ModuleA'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of ModuleA.'
 
 # This description is used to generate tags and improve search results.
@@ -41,6 +41,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'CTMediator'
-  s.dependency 'HXWCategoryExt', '~> 0.2.0'
+  s.dependency 'HXWCategoryExt', '~> 0.4.0'
 
 end
