@@ -19,7 +19,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
     [UIView popView:@"组件化测试"];
-    NSLog(@"测试");
+    NSLog(@"测试2.0.1");
 }
 
 /*
